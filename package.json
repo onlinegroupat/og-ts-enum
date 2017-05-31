@@ -2,7 +2,7 @@
   "name": "og-ts-enum",
   "version": "1.0.0",
   "description": "Typescript enums",
-  "main": "lib/index.js",
+  "main": "lib/index",
   "types": "lib/index",
   "scripts": {
     "build": "tsc",
