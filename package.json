@@ -2,8 +2,8 @@
   "name": "og-ts-enum",
   "version": "1.0.0",
   "description": "Typescript enums",
-  "main": "lib/index",
-  "types": "lib/index",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
