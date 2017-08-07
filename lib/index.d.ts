@@ -5,4 +5,5 @@ export declare class Enum {
     static fromObject<T extends {
         [_: string]: V;
     }, V extends string>(definition: T): T;
+    static keys<T>(enumObj: T): Array<keyof T>;
 }

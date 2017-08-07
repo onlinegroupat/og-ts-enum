@@ -11,4 +11,8 @@ export class Enum {
     static fromObject<T extends { [_: string]: V }, V extends string>(definition: T): T {
         return definition;
     }
+
+    static keys<T>(enumObj:T):Array<keyof T> {
+        return Object.keys(enumObj) as Array<keyof T>;
+    }
 }
